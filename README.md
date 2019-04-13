@@ -69,7 +69,8 @@ Armed with that knowledge, let's update `MovieCard`s render method to make use o
 ```js
 // assuming we are rendering a MovieCard component with the following JSX:
 const title = "Max Max"
-const posterURL = "http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+const posterSrc = "http://image.tmdb.org/t/p/w342/kqjL17yufvn9OVLyXYpvtyrFfak.jpg"
+// change posterURL to posterSrc for consistency with const used below, ie., 'posterSrc'
 const genresArr = ["Action", "Adventure", "Science Fiction", "Thriller"]
 
 <MovieCard title={title} posterSrc={posterURL} genres={genresArr} />
